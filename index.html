@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h2 id="question">Question</h2>
+
+            <h2 id="score-container">
+                <a id="userScore"></a>
+                <a id="outof"></a>
+                <a id="totalScore"></a>
+            </h2>
+
+            <ul id="optionsList">
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label for="a" id="aOptn">Option 1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label for="b" id="bOptn">Option 2</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label for="c" id="cOptn">Option 3</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label for="d" id="dOptn">Option 4</label>
+                </li>
+            </ul>
+        </div>
+
+        <button id="submitBtn">Submit!</button>
+
+    </div>
+
+    <script src="app.js "></script>
+</body>
+
+</html>
